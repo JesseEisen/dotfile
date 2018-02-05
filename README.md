@@ -1,3 +1,3 @@
 # dotfile
 
-This are some dotfiles that used in server and desktop.
+There are some dotfiles that used in server and desktop.
