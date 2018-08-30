@@ -1,0 +1,213 @@
+{
+	"colors": {
+		"editor.background": "#FFFFFF",
+		"editor.foreground": "#01070e",
+		"editor.lineHighlightBackground": "#FFFFFF",
+		"editor.selectionBackground": "#e0dcdc",
+		"editorCursor.foreground": "#04A7D8",
+		"editorIndentGuide.activeBackground": "#DFDFDF",
+		"editorIndentGuide.background": "#f1f0f0",
+		"editorLineNumber.activeForeground": "#444444",
+		"editorLineNumber.foreground": "#cccccc",
+        "list.hoverBackground": "#FFFFFF",
+        "list.activeSelectionBackground": "#FFFFFF",
+        "list.activeSelectionForeground": "#0f0101",
+        "list.inactiveSelectionBackground": "#FFFFFF",
+		"panel.background": "#FFFFFF",
+		"sideBar.background": "#FFFFFF",
+		"sideBarSectionHeader.background": "#FFFFFF",
+		"titleBar.activeBackground": "#FFFFFF",
+		"titleBar.inactiveBackground": "#FFFFFF",
+		"tab.inactiveBackground": "#FFFFFF",
+		"tab.border": "#FFFFFF",
+		"menu.background": "#FFFFFF",
+		"editorGroupHeader.tabsBackground": "#FFFFFF",
+		"scrollbar.shadow": "#FFFFFF"
+	},
+	"name": "plain",
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#868e96"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#868e96"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#868e96"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#1b1e20"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": ["constant.character", "constant.other"],
+			"settings": {
+				"foreground": "#969896"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#222425"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#343a40"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": " italic",
+				"foreground": "#969896"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#343a40"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282a2e"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#282a2e"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#282A2E"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#969896"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282A2E"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282A2E"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282A2E"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282a2e"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": ["support.type", "support.class"],
+			"settings": {
+				"foreground": "#282A2E"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#282a2eff"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid.illegal",
+			"settings": {
+				"background": "",
+				"foreground": "#D91E18"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "",
+				"fontStyle": " italic",
+				"foreground": "#D91E18"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"background": "#FFDDDD",
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"background": "#DDFFDD",
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+			"settings": {
+				"background": "#DDDDFF",
+				"foreground": "#434343"
+			}
+		}
+	],
+	"type": "light"
+}
